@@ -1,0 +1,25 @@
+{
+    "name": "bittery",
+    "version": "1.0.0",
+    "url": "https://github.com/ReplayCoding/bittery",
+    "description": "Battery Saver",
+    "main": "index.js",
+    "scripts": {
+        "start": "electron .",
+        "build": "electron-packager . Bittery --platform=darwin --overwrite --arch=x64 --out=production --icon=icons/icon.icns"
+    },
+    "keywords": [
+        "battery"
+    ],
+    "author": "ReplayCoding",
+    "license": "MIT",
+    "dependencies": {
+        "battery-level": "^3.0.0",
+        "brightness": "^3.0.0"
+    },
+    "devDependencies": {
+        "create-dmg": "^2.0.0",
+        "electron": "^1.7.9",
+        "electron-packager": "^9.1.0"
+    }
+}
